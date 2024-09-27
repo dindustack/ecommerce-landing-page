@@ -1,0 +1,21 @@
+.logo, .menu-logo {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    background: red;
+}
+
+.logo a, .menu-logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $clear;
+    font-size: rem(60);
+}
+
+.logo a {
+    color: $black
+}
+
+.menu-logo a {
+    color: $white
+}
